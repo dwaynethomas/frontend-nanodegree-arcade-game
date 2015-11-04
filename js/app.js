@@ -1,4 +1,6 @@
 
+// TODO: display scores within the browser and not only in the console log
+
 //starting positions for the player, repeated when crosses the screen or
 //collision with enemy
 var START_X_PLAYER = 300;
