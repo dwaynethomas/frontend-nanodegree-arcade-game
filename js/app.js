@@ -123,7 +123,7 @@ var collision = function(anEnemy) {
     // check for player reaching top of canvas and winning the game
     // if player wins, add 1 to the level
     // pass game level as an argument to the increaseDifficulty function
-    if (player.y + 63 <= 0) {
+    if (player.y + 30 <= 0) {
         player.x = START_X_PLAYER;
         player.y = START_Y_PLAYER;
         console.log('wowser, you got across'+ ' you\'re at level ' + gameLevel);
