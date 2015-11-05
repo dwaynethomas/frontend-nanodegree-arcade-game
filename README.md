@@ -4,7 +4,8 @@ Game was completed to practice javascript **object oriented programming** in the
 
 INSTRUCTIONS:
 
-* To run the game go to click on the index.html file (dowloads available at the repository: https://github.com/dwaynethomas/frontend-nanodegree-arcade-game)
+* To run the game in an internet browser, doubleclick on the index.html file in your file viewer.
+(downloads available at the repository: https://github.com/dwaynethomas/frontend-nanodegree-arcade-game)
 
 * Restart the game with a refresh of the browser.
 

@@ -26,7 +26,7 @@ var Enemy = function(x, y, crawlSpeed) {
 };
 
 
-Enemy.prototype.collision = function (Enemy) {
+Enemy.prototype.collision = function (player) {
       // checks for collision between enemy and player
       // checks for an overlap of the player and the enemy in any dimension
       if (
@@ -93,7 +93,7 @@ Enemy.prototype.update = function(dt) {
     }
 
     // Check for collision with enemies or barrier-walls
-    this.collision();
+    this.collision(player);
 };
 
 // Draw the enemy on the screen, required method for game
